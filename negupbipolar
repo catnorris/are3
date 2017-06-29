@@ -1,0 +1,230 @@
+options
+   mouse on
+
+fonts
+   Small arial 18
+   Large arial 40
+   Huge arial 70
+
+bitmaps
+   bipolarinstruct
+   bipolarscale
+   square
+   intro1
+   intro8
+   intro10
+   intro11
+   intro12
+   introprac
+   nexttrial
+   begingambs
+   upneginstruct
+   thankyou
+   cardback
+   card_5
+   card_10
+   card_15
+   card_20
+   card_25
+   card_30
+   card_45
+   card_60
+   card_75
+   card5
+   card10
+   card15
+   card20
+   card25
+   card30
+   card45
+   card60
+   card75
+   losecard_5
+   losecard_10
+   losecard_15
+   losecard_20
+   losecard_25
+   losecard_30
+   losecard_45
+   losecard_60
+   losecard_75
+   wincard5
+   wincard10
+   wincard15
+   wincard20
+   wincard25
+   wincard30
+   wincard45
+   wincard60
+   wincard75
+   
+table practable
+   include praclist.txt
+
+task practice
+   table practable
+   # showing stakes
+   font Large
+   text align center
+   text color white
+   show text @3 0 -80
+   font Huge
+   show text @4 0 -10
+   show text @5 0 90
+   delay 1500 
+   clear -1 -2 -3
+   # drawing the card backs, showing stakes
+   draw off
+      font Small
+      show text @3 0 -260
+      font Large
+      show text @4 0 -220
+      show text @5 0 -160
+      show bitmap cardback -175 70 # left card - bitmap 1
+      show bitmap cardback 175 70 # right card - bitmap 2
+   draw on
+   readmouse l 1 10000000000 range 7 8
+   set $myMouseX MOUSE_X # current mouse x-coordinate
+   set $myMouseY MOUSE_Y # current mouse x-coordinate
+   clear -1 -2
+   # displaying choice
+   if $myMouseX < 0
+      draw off
+         show bitmap @1 -175 70 # card won - bitmap 3 
+         show bitmap @2 175 70 # other card - bitmap 4
+      draw on
+      delay 1500
+      clear -1 -2 -3 -4 -5 -6 -7
+   fi 
+   if $myMouseX > 0
+      draw off
+         show bitmap @2 -175 70 # other card - bitmap 3
+         show bitmap @1 175 70 # card won - bitmap 4
+      draw on
+      delay 1500
+      clear -1 -2 -3 -4 -5 -6 -7
+   fi 
+   #drawing bipolar scale
+   draw off
+      show bitmap bipolarinstruct 0 -140 # bitmap 5
+      show bitmap bipolarscale -5 -55 # bitmap 6
+      show bitmap square -242 0 # bitmap 7
+      show bitmap square -181 0 # bitmap 8
+      show bitmap square -120 0 # bitmap 9
+      show bitmap square -59 0 # bitmap 10
+      show bitmap square 2 0 # bitmap 11
+      show bitmap square 59 0 # bitmap 12
+      show bitmap square 120 0 # bitmap 13
+      show bitmap square 181 0 # bitmap 14
+      show bitmap square 242 0 # bitmap 15
+   draw on
+   readmouse l 1 1000000000 range 13 21
+   clear -1 -2 -3 -4 -5 -6 -7 -8 -9 -10 -11
+   delay 250 
+   # let user start next trial whenever they want
+   show bitmap nexttrial 0 0 # bm 32
+   readmouse | 1 1000000000 
+   clear -1
+
+table gambtable
+   include gamblelist1.txt
+
+task gamble
+   table gambtable
+   # showing stakes
+   font Large
+   text align center
+   text color white
+   show text @3 0 -80
+   font Huge
+   show text @4 0 -10
+   show text @5 0 90
+   delay 1500 
+   clear -1 -2 -3
+   # drawing the card backs, showing stakes
+   draw off
+      font Small
+      show text @3 0 -260
+      font Large
+      show text @4 0 -220
+      show text @5 0 -160
+      show bitmap cardback -175 70 # left card - bitmap 1
+      show bitmap cardback 175 70 # right card - bitmap 2
+   draw on
+   readmouse l 1 10000000000 range 7 8
+   set $myMouseX MOUSE_X # current mouse x-coordinate
+   set $myMouseY MOUSE_Y # current mouse x-coordinate
+   clear -1 -2
+   # displaying choice
+   if $myMouseX < 0
+      draw off
+         show bitmap @1 -175 70 # card won - bitmap 3 
+         show bitmap @2 175 70 # other card - bitmap 4
+      draw on
+      delay 1500
+      clear -1 -2 -3 -4 -5 -6 -7
+      set $a 1
+   fi 
+   if $myMouseX > 0
+      draw off
+         show bitmap @2 -175 70 # other card - bitmap 3
+         show bitmap @1 175 70 # card won - bitmap 4
+      draw on
+      delay 1500
+      clear -1 -2 -3 -4 -5 -6 -7
+      set $a 2
+   fi 
+   save $a RT
+   #drawing bipolar scale
+   draw off
+      show bitmap bipolarinstruct 0 -140 # bitmap 5
+      show bitmap bipolarscale -5 -55 # bitmap 6
+      show bitmap square -242 0 # bitmap 7
+      show bitmap square -181 0 # bitmap 8
+      show bitmap square -120 0 # bitmap 9
+      show bitmap square -59 0 # bitmap 10
+      show bitmap square 2 0 # bitmap 11
+      show bitmap square 59 0 # bitmap 12
+      show bitmap square 120 0 # bitmap 13
+      show bitmap square 181 0 # bitmap 14
+      show bitmap square 242 0 # bitmap 15
+   draw on
+   readmouse l 1 1000000000 range 13 21
+   set $myMouseX MOUSE_X # current mouse x-coordinate
+   set $myMouseY MOUSE_Y # current mouse x-coordinate
+   clear -1 -2 -3 -4 -5 -6 -7 -8 -9 -10 -11
+   save $myMouseX $myMouseY RT
+   delay 250 
+   # let user start next trial whenever they want
+   show bitmap nexttrial 0 0 # bm 16
+   readmouse | 1 1000000000 
+   clear -1
+   save RT
+
+message intro1
+message intro10
+message intro11
+message intro8
+message intro12
+message introprac
+
+block pracblock
+   tasklist
+      practice 5 fixed
+   end
+
+message begingambs
+
+block block1
+   tasklist
+      gamble 80 fixed
+   end 
+
+message upneginstruct
+
+block block2
+   tasklist
+      gamble 80 fixed
+   end 
+
+message thankyou

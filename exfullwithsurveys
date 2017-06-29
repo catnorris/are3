@@ -1,0 +1,651 @@
+# Gamble Task 
+
+l: gambles
+t: experiment
+q:  
+- {fullscreen} erdw2_NegDownBipolar
+
+# BISBAS
+
+l: BISBASInstruct
+t: info
+q: Each item of this questionnaire is a statement that a person may either agree with or disagree with. For each item, indicate how much you agree or disagree with what the item says. Please be as accurate and honest as you can be. Respond to each item as if it were the only item. That is, don't worry about being "consistent" in your responses.  
+
+l: BISBAS1
+t: radio
+q: A person's family is the most important thing in life.
+- very false for me
+- very true for me
+
+l: BISBAS2
+t: radio
+q: Even if something bad is about to happen to me, I rarely experience fear or nervousness.
+- very false for me
+- very true for me
+
+l: BISBAS3
+t: radio
+q: I go out of my way to get things I want.
+- very false for me
+- very true for me
+
+l: BISBAS4
+t: radio
+q: When I'm doing well at something, I love to keep at it.
+- very false for me
+- very true for me
+
+l: BISBAS5
+t: radio
+q: I'm always willing to try something new if I think it will be fun.
+- very false for me
+- very true for me
+
+l: BISBAS6
+t: radio
+q: How I dress is important to me.
+- very false for me
+- very true for me
+
+l: BISBAS7
+t: radio
+q: When I get something I want, I feel excited and energized.
+- very false for me
+- very true for me
+
+l: BISBAS8
+t: radio
+q: Criticism or scolding hurts me quite a bit.
+- very false for me
+- very true for me
+
+l: BISBAS9
+t: radio
+q: When I want something, I usually go all-out to get it.
+- very false for me
+- very true for me
+
+l: BISBAS10
+t: radio
+q: I will often do things for no other reason than that they might be fun.
+- very false for me
+- very true for me
+
+l: BISBAS11
+t: radio
+q: It's hard for me to find the time to do things such as get a haircut.
+- very false for me
+- very true for me
+
+l: BISBAS12
+t: radio
+q: If I see a chance to get something I want, I move on it right away.
+- very false for me
+- very true for me
+
+l: BISBAS13
+t: radio
+q: I feel pretty worried or upset when I think or know somebody is angry at me.
+- very false for me
+- very true for me
+
+l: BISBAS14
+t: radio
+q: When I see an opportunity for something I like, I get excited right away.
+- very false for me
+- very true for me
+
+l: BISBAS15
+t: radio
+q: I often act on the spur of the moment.
+- very false for me
+- very true for me
+
+l: BISBAS16
+t: radio
+q: If I think something unpleasant is going to happen, I usually get pretty "worked up."
+- very false for me
+- very true for me
+
+l: BISBAS17
+t: radio
+q: I often wonder why people act the way they do.	
+- very false for me
+- very true for me
+
+l: BISBAS18
+t: radio
+q: When good things happen to me, it affects me strongly.	
+- very false for me
+- very true for me
+
+l: BISBAS19
+t: radio
+q: I feel worried when I think I have done poorly at something.
+- very false for me
+- very true for me
+
+l: BISBAS20
+t: radio
+q: I crave excitement and new sensations.
+- very false for me
+- very true for me
+
+l: BISBAS21
+t: radio
+q: When I go after something, I use a "no holds barred" approach.
+- very false for me
+- very true for me
+
+l: BISBAS22
+t: radio
+q: I have very few fears compared to my friends.	
+- very false for me
+- very true for me
+
+l: BISBAS23
+t: radio
+q: It would excite me to win a contest.
+- very false for me
+- very true for me
+
+l: BISBAS24
+t: radio
+q: I worry about making mistakes.
+- very false for me
+- very true for me
+
+# PANAS
+
+l: PANASInstruct
+t: info
+q: This scale consists of a number of words that describe different feelings and emotions. Read each item and then click the appropriate box. Indicate to what extent you feel this way RIGHT NOW.
+
+l: PANAS1
+t: radio
+q: interested
+- very slightly or not at all
+- a little
+- moderately
+- quite a bit
+- extremely
+
+l: PANAS2
+t: radio
+q: distressed
+- very slightly or not at all
+- a little
+- moderately
+- quite a bit
+- extremely
+
+l: PANAS3
+t: radio
+q: excited
+- very slightly or not at all
+- a little
+- moderately
+- quite a bit
+- extremely
+
+l: PANAS4
+t: radio
+q: upset
+- very slightly or not at all
+- a little
+- moderately
+- quite a bit
+- extremely
+
+l: PANAS5
+t: radio
+q: strong
+- very slightly or not at all
+- a little
+- moderately
+- quite a bit
+- extremely
+
+l: PANAS6
+t: radio
+q: guilty
+- very slightly or not at all
+- a little
+- moderately
+- quite a bit
+- extremely
+
+l: PANAS7
+t: radio
+q: scared
+- very slightly or not at all
+- a little
+- moderately
+- quite a bit
+- extremely
+
+l: PANAS8
+t: radio
+q: hostile
+- very slightly or not at all
+- a little
+- moderately
+- quite a bit
+- extremely
+
+l: PANAS9
+t: radio
+q: enthusiastic
+- very slightly or not at all
+- a little
+- moderately
+- quite a bit
+- extremely
+
+l: PANAS10
+t: radio
+q: proud
+- very slightly or not at all
+- a little
+- moderately
+- quite a bit
+- extremely
+
+l: PANAS11
+t: radio
+q: irritable
+- very slightly or not at all
+- a little
+- moderately
+- quite a bit
+- extremely
+
+l: PANAS12
+t: radio
+q: alert
+- very slightly or not at all
+- a little
+- moderately
+- quite a bit
+- extremely
+
+l: PANAS13
+t: radio
+q: ashamed
+- very slightly or not at all
+- a little
+- moderately
+- quite a bit
+- extremely
+
+l: PANAS14
+t: radio
+q: inspired
+- very slightly or not at all
+- a little
+- moderately
+- quite a bit
+- extremely
+
+l: PANAS15
+t: radio
+q: nervous
+- very slightly or not at all
+- a little
+- moderately
+- quite a bit
+- extremely
+
+l: PANAS16
+t: radio
+q: determined
+- very slightly or not at all
+- a little
+- moderately
+- quite a bit
+- extremely
+
+l: PANAS17
+t: radio
+q: attentive
+- very slightly or not at all
+- a little
+- moderately
+- quite a bit
+- extremely
+
+l: PANAS18
+t: radio
+q: jittery
+- very slightly or not at all
+- a little
+- moderately
+- quite a bit
+- extremely
+
+l: PANAS19
+t: radio
+q: active
+- very slightly or not at all
+- a little
+- moderately
+- quite a bit
+- extremely
+
+l: PANAS20
+t: radio
+q: afraid
+- very slightly or not at all
+- a little
+- moderately
+- quite a bit
+- extremely
+
+# NEScale
+
+l: NEScale
+t: info
+q: Read each statement and then click the response option that indicates the extent of your agreement or disagreement with that item.  
+
+l: NEScale1
+t: radio
+q: I am not a worrier.
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale2
+t: radio
+q: I like to have a lot of people around me.	
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale3
+t: radio
+q: I often feel inferior to others.
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale4
+t: radio
+q: I laugh easily.
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale5
+t: radio
+q: When I'm under a great deal of stress, sometimes I feel like I'm going to pieces.
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale6
+t: radio
+q: I don't consider myself especially "light-hearted."
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale7
+t: radio
+q: I rarely feel lonely or blue.
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale8
+t: radio
+q: I really enjoy talking to people.	
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale9
+t: radio
+q: I often feel tense and jittery.
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale10
+t: radio
+q: I like to be where the action is.	
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale11
+t: radio
+q: Sometimes I feel completely worthless.	
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale12
+t: radio
+q: I usually prefer to do things alone.	
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale13
+t: radio
+q: I rarely feel fearful or anxious.
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale14
+t: radio
+q: I often feel as if I'm bursting with energy.
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale15
+t: radio
+q: I often get angry at the way people treat me.
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale16
+t: radio
+q: I am a cheerful, high-spirited person.
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale17
+t: radio
+q: Too often, when things go wrong, I get discouraged and feel like giving up.
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale18
+t: radio
+q: I am not a cheerful optimist.
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale19
+t: radio
+q: I am seldom sad or depressed.
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale20
+t: radio
+q: My life is fast-paced.
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale21
+t: radio
+q: I often feel helpless and want someone else to solve my problems.
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale22
+t: radio
+q: I am a very active person.
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale23
+t: radio
+q: At times I have been so ashamed I just want to hide.
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+l: NEScale24
+t: radio
+q: I would rather go my own way than be a leader of others.
+- strongly disagree
+- disagree
+- neutral
+- agree
+- strongly agree
+
+# LOTR
+
+l: LOTRInstruct
+t: info
+q: The following items concern how you see life in general. For each item indicate whether you agree or disagree. There are no "correct" or "incorrect" answers; we only want to know your opinion. 
+
+l: LOTR1
+t: radio
+q: In uncertain times, I usually expect the best.
+- I disagree a lot
+- I disagree a little
+- I neither agree nor disagree
+- I agree a little
+- I agree a lot
+
+l: LOTR2
+t: radio
+q: It's easy for me to relax.
+- I disagree a lot
+- I disagree a little
+- I neither agree nor disagree
+- I agree a little
+- I agree a lot
+
+l: LOTR3
+t: radio
+q: If something can go wrong for me, it will.
+- I disagree a lot
+- I disagree a little
+- I neither agree nor disagree
+- I agree a little
+- I agree a lot
+
+l: LOTR4
+t: radio
+q: I am always optimistic about my future.
+- I disagree a lot
+- I disagree a little
+- I neither agree nor disagree
+- I agree a little
+- I agree a lot
+
+l: LOTR5
+t: radio
+q: I enjoy my friends a lot.
+- I disagree a lot
+- I disagree a little
+- I neither agree nor disagree
+- I agree a little
+- I agree a lot
+
+l: LOTR6
+t: radio
+q: I hardly expect things to go my way.
+- I disagree a lot
+- I disagree a little
+- I neither agree nor disagree
+- I agree a little
+- I agree a lot
+
+l: LOTR7
+t: radio
+q: It's important to me to keep busy.
+- I disagree a lot
+- I disagree a little
+- I neither agree nor disagree
+- I agree a little
+- I agree a lot
+
+l: LOTR8
+t: radio
+q: I rarely count on good things happening to me.
+- I disagree a lot
+- I disagree a little
+- I neither agree nor disagree
+- I agree a little
+- I agree a lot
+
+l: LOTR9
+t: radio
+q: Overall, I expect more good things to happen to me than bad.
+- I disagree a lot
+- I disagree a little
+- I neither agree nor disagree
+- I agree a little
+- I agree a lot
